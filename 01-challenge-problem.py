@@ -16,10 +16,10 @@ class Rectangle:
     def end_points(self):
         top_right = self.starting_point.coordX + self.broad
         bottom_left = self.starting_point.coordY + self.high
-        print('Starting Point (X)): ' + str(self.starting_point.coordX))
-        print('Starting Point (Y)): ' + str(self.starting_point.coordY))
-        print('End Point X-Axis (Top Right): ' + str(top_right))
-        print('End Point Y-Axis (Bottom Left): ' + str(bottom_left))
+        print("Starting Point (X)): " + str(self.starting_point.coordX))
+        print("Starting Point (Y)): " + str(self.starting_point.coordY))
+        print("End Point X-Axis (Top Right): " + str(top_right))
+        print("End Point Y-Axis (Bottom Left): " + str(bottom_left))
 
 
 def build_stuff():
